@@ -1,11 +1,10 @@
 .below-site-header-outlet.banner-connector {
   .custom-homepage-wrapper {
     background: url($meta_bg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     padding: 2em 0;
-    margin-top: 1em;
     @media screen and (max-width: 900px) {
       background-size: cover;
       background-position-x: right;
@@ -15,13 +14,12 @@
   }
 
   .welcome-wrapper {
-    margin-top: 2em;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     box-shadow: shadow("card");
     max-width: 930px;
-    margin: 2em auto 0.5em;
+    margin: 1.5em auto 1.5em;
     background: var(--secondary);
 
     .featured-todo {
