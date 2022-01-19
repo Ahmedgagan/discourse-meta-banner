@@ -1,12 +1,11 @@
 .below-site-header-outlet.banner-connector {
-  .custom-homepage-wrapper {
-    &::before {
-      background-image: url($meta_bg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-color: #2c1d58;
-    }
+  .custom-homepage-wrapper{
+    background-image: url($meta_bg);
+    background-color: rgba($color: #2C1D58, $alpha: 0.8);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     padding: 2em 0;
     @media screen and (max-width: 900px) {
       background-size: cover;
