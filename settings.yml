@@ -1,4 +1,4 @@
 svg_icons:
-  default: "palette|fab-discourse"
+  default: "palette|fab-discourse|fab-wordpress"
   type: "list"
   list_type: "compact"
